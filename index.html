@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Clock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Orbitron:wght@400;500&display=swap" rel="stylesheet" />
+
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="clock">
-        <span id="hours">00</span>
-        <span class="sep">:</span>
-        <span id="minutes">00</span>
-        <span class="sep">:</span>
-        <span id="seconds">00</span>
+    <h1>Digital Clock</h1>
+
+    <div class="container">
+        <div class="clock">
+            <div id="date"></div>
+            <div class="time-row">
+              <span id="time">00:00:00</span>
+              <span id="ampm">AM</span>
+            </div> 
+        </div>
     </div>
 
     <script src="script.js"></script>
