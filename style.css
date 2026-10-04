@@ -11,7 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  background: linear-gradient(135deg, #00a2ff 40%, #e84a5f 100%);
+  background: linear-gradient(135deg, #00a2ff 40%, #4a5fe8 100%);
   font-family: "Orbitron", sans-serif;
   padding: 1rem;
 }
