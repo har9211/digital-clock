@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f172a;
+    font-family: "Courier New", monospace;
+}
+
+.clock {
+    color: #22d3ee;
+    font-size: clamp(2rem,  10vw, 6rem);
+    font-weight: bold;  
+    padding: 1rem 2rem;
+    border: 3px solid #22d3ee;
+    border-radius: 16px;
+    background: #1e293b;
+    font-variant-mumeric: tabular-nums;
+}
